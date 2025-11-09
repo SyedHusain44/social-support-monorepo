@@ -12,14 +12,9 @@ A modern government financial assistance application portal that helps citizens 
 - [Project Structure](#-project-structure)
 - [Quick Start](#-quick-start)
 - [Installation](#-installation)
-- [Configuration](#-configuration)
 - [Development](#-development)
-- [Building for Production](#-building-for-production)
 - [Testing](#-testing)
 - [API Documentation](#-api-documentation)
-- [Contributing](#-contributing)
-- [License](#-license)
-
 ---
 
 ##  Features
@@ -59,7 +54,7 @@ A modern government financial assistance application portal that helps citizens 
 | [Emotion](https://emotion.sh/) | 11.14.1 | CSS-in-JS styling |
 | [Axios](https://axios-http.com/) | 1.13.2 | HTTP client |
 | [Redux](https://reactjs.org/) | 9.2.0 | state management |
-| [Jest]| (www.jest.org.in)    |  30.2.0 | Test |
+| [Jest](www.jest.org.in)    |  30.2.0 | Test |
 
 ### Backend
 
@@ -189,13 +184,15 @@ Add OpenAI API key (optional for AI features)  Edit .env file and add:    OPENAI
 
 ```
 ##  Installation
+in Root directory
+```bash
 npm install --legacy-peer-deps
+```
 
 
 ### Run Development Servers
-
-```bash
 in Root directory
+```bash
 npm run dev
 ```
 
@@ -215,13 +212,13 @@ Visit **http://localhost:5173** in your browser.
 
 ---
 
-## 🔧 Development
+##  Development
 
 ### Available Scripts
 
 
 ```bash
-npm run dev        # Start dev server (port 5173)
+npm run dev        # Start dev server (port 5173 for Frontend  and  Port 8080 for Backend)
 npm run start:test
 ```
 
@@ -259,11 +256,10 @@ npm run lint src/components/FormWizard.jsx
 # Test responsive design
 ```
 
-### Automated Testing
+### Unit Testing
 
 ```bash
-# Coming soon
-npm run star:test
+npm run start:test
 ```
 
 ---
@@ -376,8 +372,7 @@ Response:
 **Syed Husain**
 
 - GitHub: [@SyedHusain44](https://github.com/SyedHusain44)
-- LinkedIn: [Connect](https://linkedin.com/in/your-profile)
-- Email: your.email@example.com
+- Email: syed.husain4499@gmail.com
 
 ---
 
