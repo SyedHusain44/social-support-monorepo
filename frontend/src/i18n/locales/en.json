@@ -1,0 +1,123 @@
+{
+  "app": {
+    "title": "Social Support Application",
+    "subtitle": "Financial Assistance Portal"
+  },
+  "nav": {
+    "next": "Next",
+    "back": "Back",
+    "submit": "Submit Application",
+    "language": "Language"
+  },
+  "progress": {
+    "personal": "Personal Info",
+    "family": "Family & Financial",
+    "situation": "Situation"
+  },
+  "step1": {
+    "title": "Personal Information",
+    "name": "Full Name",
+    "nationalId": "National ID",
+    "dateOfBirth": "Date of Birth",
+    "gender": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "other": "Other",
+    "address": "Address",
+    "city": "City",
+    "state": "State",
+    "country": "Country",
+    "phone": "Phone Number",
+    "email": "Email Address"
+  },
+  "step2": {
+    "title": "Family & Financial Information",
+    "maritalStatus": "Marital Status",
+    "single": "Single",
+    "married": "Married",
+    "divorced": "Divorced",
+    "widowed": "Widowed",
+    "dependents": "Number of Dependents",
+    "employmentStatus": "Employment Status",
+    "employed": "Employed",
+    "unemployed": "Unemployed",
+    "selfEmployed": "Self-Employed",
+    "retired": "Retired",
+    "monthlyIncome": "Monthly Income",
+     "incomeBands": [
+      { "value": "0-1000", "label": "Below 1,000 AED" },
+      { "value": "1000-3000", "label": "1,000 - 3,000 AED" },
+      { "value": "3000-5000", "label": "3,000 - 5,000 AED" },
+      { "value": "5000-10000", "label": "5,000 - 10,000 AED" },
+      { "value": "10000+", "label": "Above 10,000 AED" }
+    ],
+    "housingStatus": "Housing Status",
+    "owned": "Owned",
+    "rented": "Rented",
+    "homeless": "Homeless",
+    "employerName": "Employer Name",
+    "jobTitle": "Job Title",
+    "businessName": "Business Name",
+    "businessType": "Business Type"
+  },
+  "step3": {
+    "title": "Situation Description",
+    "financialSituation": "Current Financial Situation",
+    "financialPlaceholder": "Describe your current financial situation...",
+    "employmentCircumstances": "Employment Circumstances",
+    "employmentPlaceholder": "Describe your employment situation...",
+    "reasonForApplying": "Reason for Applying",
+    "reasonPlaceholder": "Explain why you need financial assistance...",
+    "helpMeWrite": "Help Me Write",
+    "aiGenerating": "AI is generating..."
+  },
+  "ai": {
+    "title": "AI Suggestion",
+    "accept": "Accept",
+    "edit": "Edit & Accept",
+    "discard": "Discard",
+    "tryAgain": "Try Again",
+    "error": "Failed to generate suggestion. Please try again.",
+    "timeout": "Request timed out. Please check your connection.",
+    "previousSuggestions":"Previous Suggestions"
+  },
+  "validation": {
+    "required": "This field is required",
+    "email": "Invalid email format",
+    "phone": "Invalid phone number",
+    "minLength": "Minimum {{count}} characters required",
+    "maxLength": "Maximum {{count}} characters allowed",
+    "numeric": "Must be a number"
+  },
+  "success": {
+    "title": "Application Submitted Successfully!",
+    "message": "Your application has been received. You will be contacted soon.",
+    "reference": "Reference Number",
+    "newApplication": "Submit New Application"
+  },
+  "error": {
+    "submit": "Failed to submit application. Please try again."
+  }
+  ,"tips": {
+    "title": "Tips & Questions",
+    "subtitle": "Quick tips to help you fill this step",
+    "default1": "Use accurate information",
+    "default2": "Fields marked * are required",
+    "default3": "You can save and continue later",
+    "step1": [
+      "Enter your full legal name",
+      "Provide a valid national ID",
+      "Use a contact phone number we can reach you on"
+    ],
+    "step2": [
+      "Select employment status accurately",
+      "If unemployed, monthly income will be set to 0",
+      "Provide employer or business details when applicable"
+    ],
+    "step3": [
+      "Describe your current financial situation clearly",
+      "Include any recent job loss, medical expenses or debts",
+      "Be concise — our team will review the details you provide"
+    ]
+  }
+}

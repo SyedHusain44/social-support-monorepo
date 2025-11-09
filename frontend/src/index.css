@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #f5f5f5;
+}
+
+.step-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px !important;
+}
+
+.step-grid-item {
+  width: 47% !important;
+
+}
+
+.step3-grid-item {
+  width: 30% !important;
+}
+
+[dir='rtl'] .MuiStepper-root {
+  direction: rtl;
+}
